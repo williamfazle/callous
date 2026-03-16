@@ -1,5 +1,5 @@
 import FeatureDashboard from "./FeatureDashboard"
-import Contractors from "../../assets/image/contractors.png"
+import Contractors from "../../assets/images/contractors.png"
 
 const Feature = () => {
   return (
@@ -10,7 +10,7 @@ const Feature = () => {
        <img
         src={Contractors}
         alt="Contractors"
-        className="rounded-lg w-full mt-4 h-[55px] w-[55px]"
+        className="rounded-lg w-full mt-4 h-[45px] w-[45px] object-contain"
       />
 
 

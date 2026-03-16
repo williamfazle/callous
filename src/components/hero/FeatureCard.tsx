@@ -6,13 +6,13 @@ type Props = {
 
 const FeatureCard = ({ title, desc, img }: Props) => {
   return (
-    <div className="p-4 backdrop-blur-lg rounded-lg">
+    <div className="p-5 backdrop-blur-lg rounded-xl flex flex-col items-start">
 
 
       <img
         src={img}
         alt={title}
-        className="rounded-lg w-full mt-4 h-[20px] w-[20px]"
+        className="w-5 h-5 object-contain mb-2"
       />
 
       <div className="text-white font-medium ">

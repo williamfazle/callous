@@ -1,19 +1,19 @@
 import { RocketIcon } from "lucide-react"
-import Arc from "../../assets/image/arc.png"
-import b1 from "../../assets/image/b1.png"
-import b2 from "../../assets/image/b2.png"
-import featureDashboard from "../../assets/image/featureDashboard.png"
+import Arc from "../../assets/images/arc.png"
+import b1 from "../../assets/images/b1.png"
+import b2 from "../../assets/images/b2.png"
+import featureDashboard from "../../assets/images/featureDashboard.png"
 import FeatureCard from "../hero/FeatureCard"
-import rocketicon from "../../assets/image/rocketicon.png"
-import Section from "../../assets/image/seticon.png"
-import squareicon from "../../assets/image/squareicon.png"
-import powericon from "../../assets/image/powericon.png"
+import rocketicon from "../../assets/icons/rocketicon.png"
+import Section from "../../assets/icons/seticon.png"
+import squareicon from "../../assets/icons/squareicon.png"
+import powericon from "../../assets/icons/powericon.png"
 
 const FeatureDashboard = () => {
   return (
-    <div className="max-w-[1040px] w-full flex flex-col items-center gap-5 mt-16">
+    <div className="max-w-[1040px] w-full flex flex-col items-center gap-5 mt-6">
 
-      <div className=" rounded-xl bg-[#F8F8F8] z-10  border border-white/10">
+      <div className=" rounded-xl bg-[gradient] z-10 p-2 backdrop-blur-lg border border-white/10">
          <img
           src={featureDashboard}
           alt="dashboard"
@@ -41,7 +41,7 @@ const FeatureDashboard = () => {
         />
        
      </div>
-      <div className="grid grid-cols-4 gap-16 w-[1080px] bg-[#141417] relative top-[-200px] p-8 rounded-lg text-left border border-white/10">
+     <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-4 w-[1040px] bg-[#141417] relative top-[-200px] p-8 rounded-lg text-left border border-white/10 ">
        
        
         <FeatureCard
